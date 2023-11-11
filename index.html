@@ -26,10 +26,66 @@
         <!--estilo CSS-->
         <link rel="stylesheet" href="css/estilo.css">
 
-        
-
     </head>    
     <body>
+        
+        <!--botao para alterar a navegação mobile-->
+        <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+        <header> <!--header=cabeçalho-->
+
+            <div class="d-flex flex-column"> <!--div flex-->
+
+                    <div class="profile"> <!--profile-->
+
+                        <img src="img/perfil.jpg" alt="" class="img-fluid rounded-circle">
+                        <h1 class="text-light"> Bruce Willis </h1>
+                        
+                        <div class="social-links mt-3 text-center"> <!--Social links-->
+                        <a href="https://www.instagram.com/" class="instagram"> <i class="bx bxl-instagram"> </i> </a>
+                        <a href="https://br.pinterest.com/" class="pinterest"> <i class="bx bxl-pinterest"> </i> </a>
+                        <a href="https://twitter.com/" class="twitter"> <i class="bx bxl-twitter"> </i> </a>
+                        <a href="https://www.tiktok.com/explore" class="tiktok"> <i class="bx bxl-tiktok"> </i> </a>
+                        
+                        </div>
+
+                    </div> <!--fim profile-->
+                
+                 <nav>
+                        <ul> <!--montar lista-->
+
+                            <li> <a href="#hero" class="nav-link scrollto active"> <i class="bx bx-home"></i> <span>Inicio</span> </a> </li>
+                            <li> <a href="#about" class="nav-link scrollto"> <i class="bx bx-user"></i> <span>Sobre</span> </a> </li>
+                            <li> <a href="#resume" class="nav-link scrollto"> <i class="bx bx-file-blank"></i> <span>Resumo</span> </a> </li>
+                            <li> <a href="#portfolio" class="nav-link scrollto"> <i class="bx bx-book-content"></i> <span>Portfolio</span> </a> </li>
+                            <li> <a href="#services" class="nav-link scrollto"> <i class="bx bx-server"></i> <span>Serviços</span> </a> </li>
+                            <li> <a href="#contact" class="nav-link scrollto"> <i class="bx bx-envelope"></i> <span>Contato</span> </a> </li>
+
+                        </ul>
+                 </nav>
+
+            </div> <!--fim div flex-->
+
+        </header> <!--fim cabeçalho-->
+
+        <!--HERO-->
+        <section class="d-flex flex-column justify-content-center align-items-center">
+            <div class="hero-container" data-aos="fade-in"> <!--container-->
+
+                <h1> Bruce Willis </h1>
+                <p> Eu sou <span class="typed" data-typed-items="ggggg, e, fffff hhhhh"> <!--alterar posteriormente-->
+                </span> </p> <!--voltar para alterar-->
+
+            </div> <!--fim container-->
+        </section> <!--fim HERO-->
+
+
+
+        
+
+
+
+        <!--validadores JS-->
 
         <script src="validador/purecounter/purecounter_vanilla.js"></script>
         <script src="validador/aos/aos.js"></script>
@@ -44,3 +100,4 @@
         <script src="js/main.js"></script>
     </body>
 </html>
+
