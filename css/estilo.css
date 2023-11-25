@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6{
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background-color: red;
+    background-color: wheat;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -30,12 +30,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .back-to-top i{
     font-size: 28px;
-    color: red;
+    color: wheat;
     line-height: 0;
 }
 .back-to-top:hover{
     background-color: black;
-    color: red;
+    color: wheat;
 }
 .back-to-top.active{
     visibility: visible;
@@ -69,20 +69,20 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
     font-weight: 600;
-    color: red;
+    color: wheat;
     text-align-last: center;
     font-family: "Poppins" sans-serif;
 }
 #header .profile h1 a,
 #header .profile h1:hover{
-    color: red;
+    color: wheat;
     text-decoration: none;
 }
 #header .profile .social-links a{
     font-size: 18px;
     display: inline-block;
-    background-color: red;
-    color: red;
+    background-color: gray;
+    color: wheat;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -93,8 +93,8 @@ h1, h2, h3, h4, h5, h6{
     transition: 0.3s;
 }
 #header .profile .social-links a:hover{
-    background: red;
-    color: red;
+    background: gray;
+    color: wheat;
     text-decoration: none;
 }
 #main{
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6{
 .nav-menua:focus{
     display: flex;
     align-items: center;
-    color: red;
+    color: wheat;
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -145,21 +145,21 @@ h1, h2, h3, h4, h5, h6{
 .nav-menu a:focus i{
     font-size: 24px;
     padding-right: 8px;
-    color: red;
+    color: wheat;
 }
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a{
     text-decoration: none;
-    color: red
+    color: wheat
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i{
-   color: red; 
+   color: wheat; 
 }
 
 /**  Menu Mobile   **/
@@ -171,8 +171,8 @@ h1, h2, h3, h4, h5, h6{
     border: 0;
     font-size: 24px;
     transition: all 0.4s;
-    background: #149ddd;
-    color: #fff;
+    background: gray;
+    color: wheat;
     width: 40px;
     height: 40px;
     display: inline-flex;
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6{
 }
 #hero::before{
     content: "";
-    background: rgba(5, 13, 24, 0.4);
+    background: gray;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -215,19 +215,19 @@ h1, h2, h3, h4, h5, h6{
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #fff;
+    color: wheat;
 }
 #hero p {
-    color: #fff;
+    color: wheat;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
 }
 #hero p span{
-    color: #fff;
+    color: wheat;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 3px solid gray;
 }
 
 @media (min-width: 1024px) {
@@ -252,7 +252,7 @@ section {
     overflow: hidden;
 }
 .section-bg{
-    background: #f5f8f5;
+    background: gray;
 }
 .section-title {
     padding-bottom: 30px;
@@ -263,7 +263,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #173b6c;
+    color: wheat;
 }
 .section-title h2::after{
     content: "";
@@ -271,7 +271,7 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: #149ddd;
+    background: gray;
     bottom: 0;
     left: 0;
 }
@@ -282,7 +282,7 @@ section {
 .about .content h3{
     font-weight: 700;
     font-size: 26px;
-    color: #173b6c;
+    color: wheat;
 }
 .about .content ul {
     list-style: none;
@@ -299,7 +299,66 @@ section {
 .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
-    color: #2eafec;
+    color: wheat ;
     line-height: 0;
 }
 /*  Feitos  */
+.facts {
+    padding-bottom: 30px;
+}
+.facts .count-box {
+    padding: 30px;
+    width: 100%;
+}
+
+.facts .count-box i {
+    display: block;
+    font-size: 44px;
+    color: wheat;
+    float: left;
+    line-height: 0;
+}
+.facts .count-box span{
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: gray;
+    margin-left: 60px;
+}
+.facts .count-box p{
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: wheat;
+}
+.facts .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: wheat;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: ease-in-out 0.3s;
+}
+.facts .count-box a:hover{
+    color: wheat;
+}
+
+/* Skills */
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill{
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+}
