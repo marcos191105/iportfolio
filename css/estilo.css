@@ -718,6 +718,10 @@ font-size: 26px;
 .contact{
     padding-bottom: 130px;
 }
+.contact .section-title{
+    color: gray;
+    margin-left: 29px;
+}
 .contact .info{
     padding: 30px;
     background: whitesmoke;
