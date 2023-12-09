@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6{
 /*menu navegação desktop*/
 .nav-menu {
     padding: 30px;
+    color: gray;
 }
 .nav-menu * {
     margin: 0;
@@ -503,3 +504,134 @@ section {
     opacity: 1;
     bottom: 0;
 }
+
+/* portfolio detalhes / certificados*/
+.portfolio-details{
+    padding: 40px;
+}
+.portfolio-details .portfolio-details-slider img{
+    width: 100%;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination{
+    margin-top: 20px;
+    position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    background: gray;
+    opacity: 1;
+    border: 1px solid wheat;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active{
+    background: wheat;
+}
+.portfolio-details .portfolio-info{
+    padding: 30px;
+    box-shadow: gray transparent 0.8;
+}
+.portfolio-details .portfolio-info h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid wheat;
+}
+.portfolio-details .portfolio-info ul{
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+.portfolio-details .portfolio-info ul li+li{
+    margin-top: 10px;
+}
+.portfolio-details .portfolio-description{
+    padding: 30px;
+}
+.portfolio-details .portfolio-description h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.portfolio-details .portfolio-description p{
+    padding: 0;
+}
+/*fim*/
+
+/*Nav-Estrutural*/
+.nav-estrutural{
+    padding: 20px 0;
+    background: gray;
+    color: black;
+}
+.nav-estrutural h2{
+    font-size: 26px;
+    font-weight: 300;
+}
+.nav-estrutural ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+.nav-estrutural ol li+li::before{
+    display: inline-block;
+    padding-left: 10px;
+    color: wheat;
+    content: "/";
+}
+@media (max-width: 768px){
+    .nav-estrutural .d-flex{
+        display: block !important; 
+    }
+    .nav-estrutural ol{
+        display: block;
+    }
+    .nav-estrutural ol li{
+        display: inline-block;
+    }
+}
+/*serviços*/
+
+/*fim*/
+
+/*avaliações*/
+
+/*fim avaliações*/
+
+/*contatos*/
+
+/*fim contatos*/
+
+/*roda pé*/
+
+#footer{
+    padding: 15px;
+    color: black;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background: gray;
+}
+#footer .copyright{
+    text-align: center;
+}
+#footer .creditos{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}
+@media (max-width: 1199px){
+    #footer{
+        position: static;
+        width: auto;
+        padding-right: 20px 15px;
+    }
+}
+
