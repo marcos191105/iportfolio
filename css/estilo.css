@@ -253,7 +253,7 @@ section {
     overflow: hidden;
 }
 .section-bg{
-    background: gray;
+    background-color: gray;
 }
 .section-title {
     padding-bottom: 30px;
@@ -594,6 +594,9 @@ section {
     }
 }
 /*serviços*/
+.services{
+    background-color: whitesmoke;
+}
 .services .icon-box{
     margin-bottom: 20px;
 }
@@ -615,7 +618,7 @@ section {
     line-height: 0;
 }
 .services .icon-box:hover .icon{
-    background: gray;
+    background: black;
 }
 .services .icon-box:hover .icon i{
     color: wheat;
@@ -628,7 +631,7 @@ section {
     color: wheat;
 }
 .services .title:hover{
-    color: gray;
+    color: black;
 }
 .services .description{
     margin-left: 80px;
