@@ -724,9 +724,9 @@ font-size: 26px;
 }
 .contact .info{
     padding: 30px;
-    background: whitesmoke;
+    background: white;
     width: 100%;
-    box-shadow: 0 0 24px black transparent;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
 }
 .contact .info i{
     font-size: 20px;
@@ -784,7 +784,7 @@ font-size: 26px;
 .contact .php-email-form{
     width: 100%;
     padding: 30px;
-    background-color: darkgray;
+    background-color: white;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
 }
 .contact .php-email-form .form-group{
@@ -832,6 +832,40 @@ font-size: 26px;
     border: 3px solid wheat;
     border-top-color: #fff;
     animation: animate-loading 1s linear infinite;
+}
+.contact .php-email-form label{
+    padding-bottom: 8px;
+}
+.contact .php-email-form input,
+.contact .php-email-form textarea{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+.contact .php-email-form input{
+    height: 44px;
+}
+.contact .php-email-form textarea{
+    padding: 10px 15px;
+}
+.contact .php-email-form button[type=submit]{
+    background: wheat;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.contact .php-email-form button[type=submit]:hover{
+    background: gray;
+}
+@keyframes animate-loading{
+    0%{ /*inicio*/
+        transform: rotate(0deg);
+    }
+    100%{ /*fim*/
+        transform: rotate(360deg);
+    }
 }
 /*fim contatos*/
 
